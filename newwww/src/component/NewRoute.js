@@ -10,11 +10,11 @@ import Gallery1 from './Gallery1';
 import Inlinecss from './Inlinecss';
 import Product from './Product';
 import CounterComp from './CounterComp';
-import Likedislike from './Likedislike';
 import Navlaout from './Navlaout';
 import About from './About';
 import Newhome from './Newhome';
 import Eval from './Eval';
+import Likedislike from './Likedislike'
 
 export default function NewRoute() {
   return (

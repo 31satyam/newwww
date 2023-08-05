@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import CounterComp from './component/CounterComp';
-// import Likedislike from './component/Likedislike';
+ //import Likedislike from './component/Likedislike';
 import NewRoute from './component/NewRoute';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Newproduct from './component/Newproduct';
+//import Newproduct from './component/Newproduct';
 
 
 

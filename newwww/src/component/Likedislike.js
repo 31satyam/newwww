@@ -6,11 +6,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import { faThumbsDown } from '@fortawesome/free-solid-svg-icons';
 
-export default function Likedislike(props) {
+export default function Likedislike() {
     const [color,setColor]=useState("black");
     const [color1,setColor1]=useState("black");
-    const [like,setLike]=useState(parseInt(props.count));
-    const [dislike,setDislike]=useState(parseInt(props.count));
+    const [like,setLike]=useState(99);
+    const [dislike,setDislike]=useState(3);
     const onclick = ()=>{
         if(color=="black"&&color1=="black"){
             setColor("blue");
@@ -45,7 +45,7 @@ export default function Likedislike(props) {
     }
   return (
     <>
-    <div className='mt-3 ms-3'>
+    <div className='mt-5 pt-5 ms-3'>
         <span onClick={onclick}>Likes:{like}</span>
         <button onClick={onclick}><FontAwesomeIcon 
         icon={faThumbsUp} 
